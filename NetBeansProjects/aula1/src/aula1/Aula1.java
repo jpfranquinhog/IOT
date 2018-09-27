@@ -18,7 +18,7 @@ public class Aula1 {
      */
     
     public static void main(String[] args) {
-        int[] numbers = new int[]{2,4,3,7,1,9};
+        int[] numbers = {2,4,3,7,1,9};
         int op;
         Scanner scan= new Scanner(System.in);
         System.out.print("hello world\n");
@@ -29,7 +29,7 @@ public class Aula1 {
         System.out.print("5 - max de um array\n");
         System.out.print("6 - min de um array\n");
         System.out.print("7 - media de um array\n");
-        System.out.print("---------------------------------\nescolha um opcao:");
+        System.out.print("---------------------------------\nescolha uma opcao:");
         op=scan.nextInt();
         System.out.print("---------------------------------\n");
         switch (op){
@@ -75,7 +75,7 @@ public class Aula1 {
             default: System.out.print("opcao invalida");
                      break;
         }
-    }       
+    } 
     private static float CalcularRet(float a,float b) {
         return (a+b)*2;
     }
